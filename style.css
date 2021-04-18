@@ -1,3 +1,20 @@
+header {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+#city-card{
+  position:absolute;
+  right: 0px;
+  
+}
+
+.city-weather-info{
+  border: 3px solid #777777;
+  padding: 10px;
+}
+
+
 
 @media (max-width: 690px) {
     .btn {
@@ -5,10 +22,7 @@
       margin: 16px 0px 0px 0px;
       padding: 10px 15px;
     }
-  
-    #password {
-      font-size: 1rem;
-    }
+
   }
   
   @media (max-width: 500px) {
